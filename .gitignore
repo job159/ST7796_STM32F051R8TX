@@ -1,0 +1,27 @@
+# ===== STM32CubeIDE 建置輸出（IDE 會重新產生）=====
+Debug/
+Release/
+
+# ===== Eclipse 工作區中繼資料（不屬於專案本身）=====
+.metadata/
+RemoteSystemsTempFiles/
+
+# 每台電腦不同的編譯器快取設定（匯入專案後 IDE 會自動重建）
+.settings/language.settings.xml
+
+# ===== 編輯器 / 作業系統 =====
+.vscode/
+*.swp
+*~
+Thumbs.db
+.DS_Store
+
+# ===== 建置產物（保險起見，即使在 Debug/ 之外也忽略）=====
+*.o
+*.su
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
